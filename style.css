@@ -66,6 +66,7 @@ a {
     border-top: 1px solid #fff;
     position: relative;
     right: 40px;
+    z-index: 1;
 }
 
 .cont3 {
@@ -77,6 +78,7 @@ a {
     border-bottom: 1px solid #fff;
     top: -116px;
     border-left: 1px solid #fff;
+    z-index: 1;
 }
 
 .cont4 {
@@ -86,6 +88,7 @@ a {
     width: 420px;
     border-bottom: 1px solid #fff;
     top: -116px;
+    z-index: 1;
 }
 
 .cont5 {
@@ -94,6 +97,7 @@ a {
     right: -238px;
     width: 420px;
     top: -116px;
+    z-index: 1;
 }
 
 .menu li:hover > ul {
