@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: open sans;
+}
+
+.menu > ul li a {
+    display: block;
+    background: #C30C09;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 0px 104px 0px 105px;
+}
+
+.cont1 {
+    border-right: 1px solid #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 95px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu li a:hover {
+    background: #FFFFFF;
+    color: #0d0d0d;
+    box-shadow: 1px 5px 50px black;
+    transition: all 0.2s ease;
+}
+
+.menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+}
+
+.menu li > ul li ul {
+    position: static;
+    right: -150px;
+    top: 0;
+}
+
+.cont2 {
+    list-style: none;
+    width: 278px;
+    border-top: 1px solid #fff;
+    position: relative;
+    right: 40px;
+}
+
+.cont3 {
+    list-style: none;
+    width: 420px;
+    border-top: 1px solid #fff;
+    position: relative;
+    right: -238px;
+    border-bottom: 1px solid #fff;
+    top: -116px;
+    border-left: 1px solid #fff;
+}
+
+.cont4 {
+    list-style: none;
+    position: relative;
+    right: -238px;
+    width: 420px;
+    border-bottom: 1px solid #fff;
+    top: -116px;
+}
+
+.cont5 {
+    list-style: none;
+    position: relative;
+    right: -238px;
+    width: 420px;
+    top: -116px;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    line-height: 28px;
+    margin: 20px 100px;
+    max-width: 500px;
+    float: center;
+}
+
+button {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #C30C09;
+    width: 200px;
+    height: 60px;
+    outline: none;
+}
+
+button:focus {
+        background: #26CC71;
+}
+
+input {
+    border: 1px solid #cccccc;
+    height: 35px;
+    width: 300px;
+    border-radius: 2px;
+    font-size: 10px;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0 0 15px 0 #C30C09;
+}
+
+.alertBody {
+    background: #1d1d1d;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    max-height: 100000px;
+    width: 500px;
+    line-height: 30px;
+    color: #fff;
+    min-height: 30px;
+}
+
+.alertName {
+    font-size: 17px;
+    color: #C30C09;
+    border-top: 1px solid #DEDEDE;
+}
+
+.alertTime {
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+b {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #C30C09;
+    line-height: 40px;
+    margin: 0px 1px;
+}
+
+.form-group {
+    font-size: 20px;
+    color: #C30C09;
+    font-family: sans-serif;
+}
+
+.np {
+    max-width: 600px;
+    position: relative;
+    right: -200px;
+    top: -300px;
+    color: #fff;
+    font-family: sans-serif;
+}
