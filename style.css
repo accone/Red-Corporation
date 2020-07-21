@@ -31,6 +31,10 @@ a {
     transition: all 0.2s ease;
 }
 
+.menu li a, .cont1:hover {
+    transition: all 0.2s ease;
+}
+
 .menu > ul {
     margin: 0px;
     padding: 0px;
