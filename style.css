@@ -32,7 +32,7 @@ a {
 }
 
 .menu li a, .cont1:hover {
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .menu > ul {
