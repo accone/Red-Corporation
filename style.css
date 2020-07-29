@@ -6,14 +6,11 @@ body {
 
 .menu > ul li a {
     display: block;
-    background: #C30C09;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
     color: #FFFFFF;
     list-style: none;
     padding: 0px 104px 0px 105px;
-}
-
-.cont1 {
-    border-right: 1px solid #fff;
 }
 
 a {
@@ -63,7 +60,6 @@ a {
 .cont2 {
     list-style: none;
     width: 278px;
-    border-top: 1px solid #fff;
     position: relative;
     right: 40px;
     z-index: 1;
@@ -72,12 +68,9 @@ a {
 .cont3 {
     list-style: none;
     width: 420px;
-    border-top: 1px solid #fff;
     position: relative;
     right: -238px;
-    border-bottom: 1px solid #fff;
     top: -116px;
-    border-left: 1px solid #fff;
     z-index: 1;
 }
 
@@ -86,7 +79,6 @@ a {
     position: relative;
     right: -238px;
     width: 420px;
-    border-bottom: 1px solid #fff;
     top: -116px;
     z-index: 1;
 }
