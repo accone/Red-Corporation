@@ -4,6 +4,41 @@ body {
     font-family: open sans;
 }
 
+p::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+br::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+span::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+h1::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+.np::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+a::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+img::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
 .menu > ul li a {
     display: block;
     background: #0d0d0d;
@@ -183,4 +218,32 @@ b {
     top: -300px;
     color: #fff;
     font-family: sans-serif;
+}
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 1001;
+}
+
+.preloader__image {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  top: 0%;
+  left: 0%;
+  background: url('load.png');
+}
+
+.loaded_hiding .preloader {
+  transition: 0.9s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }
