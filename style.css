@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: open sans;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 p::selection {
@@ -45,15 +45,13 @@ img::selection {
     border: 1px solid #C30C09;
     color: #FFFFFF;
     list-style: none;
-    padding: 0px 104px 0px 105px;
+    padding: 20px 104px 20px 105px;
 }
 
 a {
     color: #fff;
     text-decoration: none;
-    line-height: 95px;
     font-size: 25px;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .menu li a:hover {
