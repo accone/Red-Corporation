@@ -219,31 +219,3 @@ b {
     color: #fff;
     font-family: sans-serif;
 }
-
-.preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  z-index: 1001;
-}
-
-.preloader__image {
-  position: relative;
-  width: 1920px;
-  height: 1080px;
-  top: 0%;
-  left: 0%;
-  background: url('load.png');
-}
-
-.loaded_hiding .preloader {
-  transition: 0.9s opacity;
-  opacity: 0;
-}
-
-.loaded .preloader {
-  display: none;
-}
