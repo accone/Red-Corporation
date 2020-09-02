@@ -1,0 +1,198 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+p::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+br::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+span::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+h1::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+.np::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+a::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+img::selection {
+    background: #C30C09;
+    color: #fff;
+}
+
+.menu > ul li a {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 80px 84px 80px 85px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+.menu li a:hover {
+    background: #FFFFFF;
+    color: #0d0d0d;
+    box-shadow: 1px 5px 50px black;
+    transition: all 0.2s ease;
+}
+
+.menu li a, .cont1 {
+    transition: all 0.3s ease;
+}
+
+.menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+.menu li ul {
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.menu li > ul li a {
+    padding: 10px;
+    text-transform: none;
+}
+
+.menu li > ul li ul {
+    position: static;
+    right: -150px;
+    top: 0;
+}
+
+.cont2 {
+    list-style: none;
+    width: 278px;
+    position: relative;
+    right: 40px;
+    z-index: 1;
+}
+
+.cont3 {
+    list-style: none;
+    width: 420px;
+    position: relative;
+    right: -238px;
+    top: -116px;
+    z-index: 1;
+}
+
+.cont4 {
+    list-style: none;
+    position: relative;
+    right: -238px;
+    width: 420px;
+    top: -116px;
+    z-index: 1;
+}
+
+.cont5 {
+    list-style: none;
+    position: relative;
+    right: -238px;
+    width: 420px;
+    top: -116px;
+    z-index: 1;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+p {
+    font-size: 50px;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    line-height: 58px;
+    margin: 20px 100px;
+    max-width: 500px;
+    float: center;
+}
+
+button {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #C30C09;
+    width: 200px;
+    height: 60px;
+    outline: none;
+}
+
+button:focus {
+        background: #26CC71;
+}
+
+input {
+    border: 1px solid #cccccc;
+    height: 35px;
+    width: 300px;
+    border-radius: 2px;
+    font-size: 10px;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0 0 15px 0 #C30C09;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+b {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #C30C09;
+    line-height: 40px;
+    margin: 0px 1px;
+}
+
+.form-group {
+    font-size: 20px;
+    color: #C30C09;
+    font-family: sans-serif;
+}
+
+.np {
+    max-width: 600px;
+    position: relative;
+    right: -200px;
+    top: -300px;
+    color: #fff;
+    font-family: sans-serif;
+}
