@@ -92,7 +92,7 @@ a {
 
 .cont2 {
     list-style: none;
-    width: 278px;
+    width: 282px;
     position: relative;
     right: 40px;
     z-index: 1;
@@ -102,26 +102,26 @@ a {
     list-style: none;
     width: 420px;
     position: relative;
-    right: -238px;
-    top: -116px;
+    right: -242px;
+    top: -105px;
     z-index: 1;
 }
 
 .cont4 {
     list-style: none;
     position: relative;
-    right: -238px;
+    right: -242px;
     width: 420px;
-    top: -116px;
+    top: -105px;
     z-index: 1;
 }
 
 .cont5 {
     list-style: none;
     position: relative;
-    right: -238px;
+    right: -242px;
     width: 420px;
-    top: -116px;
+    top: -105px;
     z-index: 1;
 }
 
