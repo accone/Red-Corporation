@@ -45,13 +45,26 @@ img::selection {
     border: 1px solid #C30C09;
     color: #FFFFFF;
     list-style: none;
-    padding: 80px 84px 80px 85px;
+    padding: 60px 64px 60px 65px;
 }
 
 a {
     color: #fff;
     text-decoration: none;
     font-size: 45px;
+}
+
+.dwnld {
+    border: 2px solid #26CC71;
+    border-radius: 100px;
+    max-width: 1000px;
+    font-size: 13px;
+    padding: 2px;
+}
+
+.phd {
+    top: -250px;
+    position: relative;
 }
 
 .menu li a:hover {
