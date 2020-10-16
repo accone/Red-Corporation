@@ -104,38 +104,39 @@ a {
 }
 
 .cont2 {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
+    color: #FFFFFF;
     list-style: none;
-    width: 282px;
-    position: relative;
-    right: 40px;
-    z-index: 1;
+    padding: 20px 104px 20px 105px;
 }
 
 .cont3 {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
+    color: #FFFFFF;
     list-style: none;
-    width: 420px;
-    position: relative;
-    right: -242px;
-    top: -105px;
-    z-index: 1;
+    padding: 20px 104px 20px 105px;
 }
 
 .cont4 {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
+    color: #FFFFFF;
     list-style: none;
-    position: relative;
-    right: -242px;
-    width: 420px;
-    top: -105px;
-    z-index: 1;
+    padding: 20px 104px 20px 105px;
 }
 
 .cont5 {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
+    color: #FFFFFF;
     list-style: none;
-    position: relative;
-    right: -242px;
-    width: 420px;
-    top: -105px;
-    z-index: 1;
+    padding: 20px 104px 20px 105px;
 }
 
 .menu li:hover > ul {
