@@ -87,7 +87,7 @@ a {
     border: 1px solid #C30C09;
     color: #FFFFFF;
     list-style: none;
-    padding: 30px 84px 30px 85px;
+    padding: 30px 54px 30px 55px;
     font-size: 50px;
 }
 
@@ -138,27 +138,6 @@ input:focus {
     box-shadow: 0 0 15px 0 #C30C09;
 }
 
-.alertBody {
-    background: #1d1d1d;
-    border: 1px solid #222222;
-    border-radius: 5px;
-    max-height: 100000px;
-    width: 500px;
-    line-height: 30px;
-    color: #fff;
-    min-height: 30px;
-}
-
-.alertName {
-    font-size: 17px;
-    color: #C30C09;
-    border-top: 1px solid #DEDEDE;
-}
-
-.alertTime {
-    font-size: 17px;
-}
-
 h1 {
     font-size: 50px;
     font-family: sans-serif;
@@ -171,12 +150,6 @@ b {
     color: #C30C09;
     line-height: 40px;
     margin: 0px 1px;
-}
-
-.form-group {
-    font-size: 20px;
-    color: #C30C09;
-    font-family: sans-serif;
 }
 
 .np {
