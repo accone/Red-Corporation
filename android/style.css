@@ -1,5 +1,7 @@
-body {
+body, html {
     font-family: Impact, Charcoal, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 p::selection {
@@ -85,9 +87,8 @@ a {
     border: 1px solid #C30C09;
     color: #FFFFFF;
     list-style: none;
-    padding: 30px 24px 30px 25px;
+    padding: 30px 74px 30px 75px;
     font-size: 50px;
-    top: 0;
 }
 
 .menu > ul {
