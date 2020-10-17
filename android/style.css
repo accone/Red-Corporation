@@ -39,27 +39,13 @@ img::selection {
     color: #fff;
 }
 
-.menu > ul li a {
+.cont2 {
     display: block;
     background: #0d0d0d;
     border: 1px solid #C30C09;
     color: #FFFFFF;
     list-style: none;
-    padding: 60px 64px 60px 65px;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 45px;
-}
-
-.dwnld {
-    border: 2px solid #26CC71;
-    border-radius: 100px;
-    max-width: 1000px;
-    font-size: 13px;
-    padding: 2px;
+    padding: 30px 14px 30px 15px;
 }
 
 .phd {
@@ -74,8 +60,35 @@ a {
     transition: all 0.2s ease;
 }
 
-.menu li a, .cont1 {
-    transition: all 0.3s ease;
+.dwnld {
+    border: 2px solid #26CC71;
+    border-radius: 100px;
+    font-size: 13px;
+    padding: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 20px 104px 20px 105px;
+}
+
+.games:hover {
+    background: #FFFFFF;
+    color: #0d0d0d;
+    box-shadow: 1px 5px 50px black;
+    transition: all 0.2s ease;
+}
+
+.menu > ul li a {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #C30C09;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 30px 54px 30px 55px;
+    font-size: 50px;
 }
 
 .menu > ul {
@@ -86,68 +99,11 @@ a {
     justify-content: center
 }
 
-.menu li ul {
-    position: absolute;
-    min-width: 150px;
-    display: none;
-}
-
-.menu li > ul li a {
-    padding: 10px;
-    text-transform: none;
-}
-
-.menu li > ul li ul {
-    position: static;
-    right: -150px;
-    top: 0;
-}
-
-.cont2 {
-    display: block;
-    background: #0d0d0d;
-    border: 1px solid #C30C09;
-    color: #FFFFFF;
-    list-style: none;
-    padding: 20px 104px 20px 105px;
-}
-
-.cont3 {
-    display: block;
-    background: #0d0d0d;
-    border: 1px solid #C30C09;
-    color: #FFFFFF;
-    list-style: none;
-    padding: 20px 104px 20px 105px;
-}
-
-.cont4 {
-    display: block;
-    background: #0d0d0d;
-    border: 1px solid #C30C09;
-    color: #FFFFFF;
-    list-style: none;
-    padding: 20px 104px 20px 105px;
-}
-
-.cont5 {
-    display: block;
-    background: #0d0d0d;
-    border: 1px solid #C30C09;
-    color: #FFFFFF;
-    list-style: none;
-    padding: 20px 104px 20px 105px;
-}
-
-.menu li:hover > ul {
-    display: block;
-}
-
 p {
-    font-size: 50px;
+    font-size: 25px;
     color: #fff;
     font-family: Open Sans, sans-serif;
-    line-height: 58px;
+    line-height: 34px;
     margin: 20px 100px;
     max-width: 500px;
     float: center;
@@ -180,6 +136,27 @@ input {
 
 input:focus {
     box-shadow: 0 0 15px 0 #C30C09;
+}
+
+.alertBody {
+    background: #1d1d1d;
+    border: 1px solid #222222;
+    border-radius: 5px;
+    max-height: 100000px;
+    width: 500px;
+    line-height: 30px;
+    color: #fff;
+    min-height: 30px;
+}
+
+.alertName {
+    font-size: 17px;
+    color: #C30C09;
+    border-top: 1px solid #DEDEDE;
+}
+
+.alertTime {
+    font-size: 17px;
 }
 
 h1 {
