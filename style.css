@@ -124,19 +124,6 @@ button:focus {
         background: #26CC71;
 }
 
-input {
-    border: 1px solid #cccccc;
-    height: 35px;
-    width: 300px;
-    border-radius: 2px;
-    font-size: 10px;
-    outline: none;
-}
-
-input:focus {
-    box-shadow: 0 0 15px 0 #C30C09;
-}
-
 h1 {
     font-size: 50px;
     font-family: sans-serif;
@@ -158,4 +145,11 @@ b {
     top: -300px;
     color: #fff;
     font-family: sans-serif;
+}
+
+.design {
+        color: #061E60;
+        background: #fff;
+        border-radius: 2px;
+        font-family: "Times New Roman", Times, serif;
 }
