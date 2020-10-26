@@ -54,8 +54,8 @@ img::selection {
 }
 
 .menu li a:hover {
-    background: #FFFFFF;
-    color: #0d0d0d;
+    background: #C30C09;
+    color: #fff;
     box-shadow: 1px 5px 50px black;
     transition: all 0.2s ease;
 }
@@ -75,10 +75,11 @@ a {
 }
 
 .games:hover {
-    background: #FFFFFF;
-    color: #0d0d0d;
+    background: #C30C09;
+    color: #fff;
     box-shadow: 1px 5px 50px black;
     transition: all 0.2s ease;
+    border-radius: 2px;
 }
 
 .menu > ul li a {
@@ -123,19 +124,6 @@ button {
 
 button:focus {
         background: #26CC71;
-}
-
-input {
-    border: 1px solid #cccccc;
-    height: 35px;
-    width: 300px;
-    border-radius: 2px;
-    font-size: 10px;
-    outline: none;
-}
-
-input:focus {
-    box-shadow: 0 0 15px 0 #C30C09;
 }
 
 h1 {

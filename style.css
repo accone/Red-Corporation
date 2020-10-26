@@ -54,8 +54,8 @@ img::selection {
 }
 
 .menu li a:hover {
-    background: #FFFFFF;
-    color: #0d0d0d;
+    background: #C30C09;
+    color: #fff;
     box-shadow: 1px 5px 50px black;
     transition: all 0.2s ease;
 }
@@ -75,10 +75,12 @@ a {
 }
 
 .games:hover {
-    background: #FFFFFF;
-    color: #0d0d0d;
+    background: #C30C09;
+    color: #fff;
     box-shadow: 1px 5px 50px black;
     transition: all 0.2s ease;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 .menu > ul li a {
