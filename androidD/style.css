@@ -1,0 +1,148 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+    background: #fff;
+}
+
+p::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+br::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+span::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+h1::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+.np::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+a::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+img::selection {
+    background: #061E60;
+    color: #fff;
+}
+
+.cont2 {
+    display: block;
+    background: #fff;
+    border: 1px solid #061E60;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 40px 104px 40px 105px;
+}
+
+.phd {
+    top: -250px;
+    position: relative;
+}
+
+.menu li a:hover {
+    background: #061E60;
+    color: #fff;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 30px 0 #808080;
+    border-radius: 2px; 
+}
+
+.dwnld {
+    border: 2px solid #26CC71;
+    border-radius: 100px;
+    font-size: 30px;
+    padding: 20px;
+    line-height: 100px;
+}
+
+a {
+    color: #061E60;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.games:hover {
+    background: #061E60;
+    border-radius: 2px;
+    padding: 5px;
+    color: #fff;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 30px 0 #808080;
+}
+
+.menu > ul li a {
+    display: block;
+    background: #fff;
+    border: 1px solid #061E60;
+    border-radius: 2px;
+    color: #061E60;
+    list-style: none;
+    padding: 30px 54px 30px 55px;
+    font-size: 50px;
+}
+
+.menu > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center
+}
+
+p {
+    font-size: 25px;
+    color: #061E60;
+    line-height: 34px;
+    margin: 20px 100px;
+    float: center;
+}
+
+button {
+    color: #061E60;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #061E60;
+    width: 200px;
+    height: 60px;
+    outline: none;
+}
+
+button:focus {
+        background: #26CC71;
+}
+
+h1 {
+    font-size: 50px;
+    color: #061E60;
+}
+
+b {
+    font-size: 20px;
+    color: #061E60;
+    line-height: 40px;
+    margin: 0px 1px;
+}
+
+.np {
+    max-width: 600px;
+    position: relative;
+    right: -200px;
+    top: -300px;
+    color: #061E60;
+}
