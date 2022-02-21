@@ -1,17 +1,18 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Times New Roman", Times, serif;
+    font-family: sans-serif;
     background: #fff;
 }
 
 .cont2 {
     display: block;
-    background: #fff;
-    border: 1px solid #C30C09;
-    color: #FFFFFF;
+    background: #C30C09;
+    border: 2px solid #8e0502;
+    color: #fff;
     list-style: none;
     padding: 20px 104px 20px 105px;
+    border: 2px solid #8e0502;
 }
 
 .phd {
@@ -20,7 +21,7 @@ body {
 }
 
 .menu li a:hover {
-    background: #C30C09;
+    background: #8e0502;
     color: #fff;
     transition: all 0.2s ease;
     box-shadow: 0 0 30px 0 #808080;
@@ -49,22 +50,20 @@ a {
 }
 
 .games:hover {
-    background: #C30C09;
+    background: #8e0502;
     border-radius: 2px;
     padding: 5px;
     color: #fff;
     transition: all 0.2s ease;
-    box-shadow: 0 0 30px 0 #808080;
 }
 
 .menu > ul li a {
     display: block;
-    background: #fff;
-    border: 1px solid #C30C09;
-    border-radius: 2px;
-    color: #C30C09;
+    background: #C30C09;
+    color: #fff;
     list-style: none;
     padding: 20px 104px 20px 105px;
+    border: 2px solid #8e0502;
 }
 
 .menu > ul {
@@ -72,7 +71,8 @@ a {
     padding: 0px;
     list-style: none;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    font-family: "Oswald";
 }
 
 p {
@@ -118,4 +118,38 @@ b {
     top: -300px;
     color: #C30C09;
     font-size: 20px;
+}
+
+.news {
+    max-width: 700px;
+    max-height: 500px;
+    background: #C30C09;
+    color: #fff;
+    border-radius: 3px; 
+}
+
+.h2 {
+    color: #fff;
+    font-family: "Oswald";
+    font-size: 50px;
+    background: #8e0502;
+}
+
+.nt {
+    height: 270px;
+    max-width: 500px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.time {
+    font-size: 15px;
+    font-family: monospace;
+    margin: -120px;  
+    color: #fff;
+}
+
+.h1 {
+    font-family: "Oswald";
+    font-size: 50px; 
 }

@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: "Times New Roman", Times, serif;
+    font-family: sans-serif;
     background: #fff;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .menu li a:hover {
-    background: #C30C09;
+    background: #8e0502;
     color: #fff;
     transition: all 0.2s ease;
     box-shadow: 0 0 30px 0 #808080;
@@ -59,13 +59,13 @@ a {
 
 .menu > ul li a {
     display: block;
-    background: #fff;
-    border: 1px solid #C30C09;
-    border-radius: 2px;
-    color: #C30C09;
+    background: #C30C09;
+    border: 2px solid #8e0502;
+    color: #fff;
     list-style: none;
     padding: 30px 54px 30px 55px;
     font-size: 50px;
+    font-family: "Oswald";
 }
 
 .menu > ul {
